@@ -1,4 +1,4 @@
-use fat32::device::block_device::{
+use rust_project::device::block_device::{
     BlockDevice,
     BlockDeviceError,
     MemoryBlockDevice,

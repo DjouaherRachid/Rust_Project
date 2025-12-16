@@ -1,6 +1,6 @@
-use fat32::device::block_device::MemoryBlockDevice;
-use fat32::fs::boot_sector::BootSector;
-use fat32::fs::fat::{Fat, FatError};
+use rust_project::device::block_device::MemoryBlockDevice;
+use rust_project::fs::boot_sector::BootSector;
+use rust_project::fs::fat::{Fat, FatError};
 
 fn make_boot_sector() -> BootSector {
     BootSector {

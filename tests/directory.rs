@@ -1,8 +1,8 @@
-use fat32::device::block_device::MemoryBlockDevice;
-use fat32::fs::boot_sector::BootSector;
-use fat32::fs::fat::Fat;
-use fat32::fs::cluster::ClusterReader;
-use fat32::fs::directory::{DirectoryReader, EntryType};
+use rust_project::device::block_device::MemoryBlockDevice;
+use rust_project::fs::boot_sector::BootSector;
+use rust_project::fs::fat::Fat;
+use rust_project::fs::clusters::ClusterReader;
+use rust_project::fs::directory::{DirectoryReader, EntryType};
 
 fn make_boot_sector() -> BootSector {
     BootSector {

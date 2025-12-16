@@ -1,5 +1,5 @@
-use fat32::device::block_device::MemoryBlockDevice;
-use fat32::fs::boot_sector::{BootSector, BootSectorError};
+use rust_project::device::block_device::MemoryBlockDevice;
+use rust_project::fs::boot_sector::{BootSector, BootSectorError};
 
 fn make_valid_boot_sector() -> [u8; 512] {
     let mut bs = [0u8; 512];
